@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+html{
+    font-size:62.5%; 
+    width:100%;
+    
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    font-size:2rem;
+    line-height: 1.6;
+    background-color:rgb(240, 228, 228);
+}
+.menu{
+    margin:30px auto;
+    width:100%;
+    height:auto;
+    position:relative;
+}
+img{
+    height:200px;
+    height:auto;
+}
+header{
+    display: inline-block;
+    width:15%;
+    height:152px;
+    vertical-align:middle;
+}
+.nav{
+    display: inline-block;
+    text-align:center;
+    width:65%;
+    height:152px;
+    vertical-align:middle;
+}
+ul{
+    display:inline-block;
+    padding:none;
+}
+ul>p{
+    display:inline-block;
+
+}
+.nav-item{
+    display: inline-block;
+    text-decoration:none;
+
+}
+
+.nav-button{
+    background-color:#2b64b4;
+    display: inline-block;
+    height:40px;
+    width:200px;
+    font-size:1.8rem;
+    color:white;
+    border-radius: 4px;
+    max-width: 100%;
+    
+}
+
+.nav-button:hover{
+    opacity: 0.7;
+}
+.nav-item2{
+    display: inline-block;
+    width:18%;
+    height: auto;
+}
+.nav-item2 strong{
+    font-size:2.5rem;
+}
+/*main*/
+main{
+    width:100%;
+    height:auto;
+    position: relative;
+}
+.main-left{
+   display: inline-block;
+    background:url(images/main-left.png);
+    width:41.4%;
+    height:600px;
+}
+.main-right{
+    display: inline-block;
+   position: absolute;
+    background:url(images/2592552_s.png) no-repeat;
+    width: 58.6%;
+    height:500px;
+   
+}
+.word {
+    display:inline-block;
+    position: absolute;
+    left:120px;
+    color:white;
+    height:600px;
+    font-size:3.0rem;
+    letter-spacing: 4px;
+    z-index: 30;
+}
+.word p{
+    line-height: 20px;
+    margin:20px;
+    letter-spacing: 4px;
+    font-family: "Brush Script MT","sans-serif";
+}
+.word h1{
+    line-height: 50px;
+    ;
+}
+.word h1:nth-of-type(1){
+    margin-top:70px
+}
+.NEWS{
+    display: inline-block;
+   
+}
+.NEWS p{
+    background-color: rgb(245, 128, 18);
+    display:inline-block;
+    width:200px;
+    height:100px;
+    text-align: center;
+   padding:36px 0;
+}
+.main-bottom{ 
+    position: absolute;
+    top:480px;
+}
+.main-bottom table{
+    display: inline-block;
+}
+table td {
+    display: inline-block;
+    margin-left: 30px;
+}
+table th{
+    font-weight: lighter;
+}
+tbody{
+    display: inline-block;
+    margin:36px 0;
+}
+/*強み*/
+.scroll-fade{
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+}
+.subtitle{
+    clear: both;
+    text-align: center;
+     font-size: 4.0rem;
+    height:300px;
+    width:100%;
+    margin:100px auto;
+    vertical-align: middle;
+     position: relative;
+}
+.tuyomi{
+    height:700px;
+    display: inline-block;
+    position: relative;
+}
+.tuyomi-text{
+    width:600px;
+    display: block;
+    position: absolute;
+    bottom:120px;
+    text-align:center;
+    margin-left:20px;
+    background-color:white;
+    box-shadow: 2px 2px 10px -2px #ccc;
+}
+.tuyomi4 img{
+    height:426px;
+}
+
+.tuyomi::before{
+    content:"01";
+    font-family: "Brush Script MT","sans-serif";
+    font-size: 8em;
+    position: absolute;
+    top:-140px;
+    left:-40px;
+}
+.tuyomi2::before{
+    content:"02";
+}
+.tuyomi3::before{
+    content:"03";
+}
+.tuyomi4::before{
+    content:"04";
+}
+
+.subtitle1 {
+    position: relative;
+    display:inline-block;
+    background-color:#2b64b4;
+    color:white;
+    letter-spacing: 4px;
+  height:300px;
+  width:1000px;
+  margin-top:100px;
+   max-width: 80%;
+    border-radius: 30px;
+    
+
+}
+.koe{
+    
+    width:600px;
+    height:200px;
+    font-size:1.8rem;
+   text-align: left;
+   
+    
+}
+.subtitle1 img{
+  
+    margin-right:500px;
+    display:block;
+    position:absolute;
+    bottom:0px;
+    left:700px;
+    
+}
+.subtitle1 .koe {
+ 
+    display:block;
+   margin:0 100px 50px 100px;
+    position:absolute;
+    top:4px;
+bottom:50px;
+
+}
+
+.subtitle2{
+    position: absolute;
+    display:block;
+    background-color:#2b64b4;
+    color:white;
+    letter-spacing: 4px;
+  height:300px;
+  width:800px;
+  margin-top:200px;
+   max-width: 80%;
+    border-radius: 30px;
+    margin-left:350px;
+}
+.subtitle2 img{
+  
+    margin-left:500px;
+    display:block;
+    position:absolute;
+    bottom:0px;
+    right:650px;
+    
+}
+.subtitle2 .koe {
+ 
+    display:block;
+   margin:0px 150px 50px 50px;
+    position:absolute;
+    top:4px;
+bottom:50px;
+left:100px;
+}
+
+.subtitle1 p:nth-of-type(1){
+    font-size: 2.5rem;
+}
+.subtitle1 p:nth-of-type(2){
+   height:150px;
+}
+.subtitle2 p:nth-of-type(1){
+    font-size: 2.5rem;
+}
+footer{
+    display:block;
+    margin-top:850px;
+}
